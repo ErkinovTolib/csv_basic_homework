@@ -9,10 +9,12 @@ def find_number_of_columns(data):
     """
 
     column = []
+    x = []
     c = 0
     for i in data:
         column.append(i) 
-    for j in column[0]:   
+    for j in column[0]: 
+        x.append(j)  
         c += 1
     return c
  
